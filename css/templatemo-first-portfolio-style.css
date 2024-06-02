@@ -1189,6 +1189,7 @@ strong {
   background-color: #F9F9F9;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   padding: 20px 0;
 }
@@ -1198,4 +1199,11 @@ strong {
   text-align: center;
   margin-top: 20px;
   padding: 30px 10px 0 10px;
+}
+
+.card-custom h4 {
+  width: 230px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
