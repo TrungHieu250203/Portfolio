@@ -1185,25 +1185,32 @@ strong {
   }
 }
 
-.contentful-data {
-  background-color: #F9F9F9;
+.contentful {
+  padding: 30px 0;
+}
+
+.contentful-item {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 20px 0;
+  min-height: 300px;
+  margin-top: 30px;
 }
 
-.card-custom {
-  height: 300px;
-  text-align: center;
-  margin-top: 20px;
-  padding: 30px 10px 0 10px;
+.product-img {
+  width: 100%;
+  border-radius: 4px;
 }
 
-.card-custom h4 {
-  width: 230px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.contentful-item h4 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.contentful-item p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #999999;
 }
